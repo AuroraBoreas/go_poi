@@ -23,7 +23,7 @@ func main() {
 	}()
 
 	// set i = 3, this program will meet deadlock. but why?
-	// because previously we only make two channels: c1, and c2, neither of them have buffering.
+	// because previously we only make two channels: c1, and c2, neither of them have buffering
 
 	// another interesting behavious is 'received two' may come out first.
 
